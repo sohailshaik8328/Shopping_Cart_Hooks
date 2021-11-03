@@ -1,0 +1,63 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    max-width: 1720px;
+    border: 1px solid black;
+    margin: auto;
+    width: 100%;
+}
+.flex-20 {
+    flex: 0 1 20%;
+}
+.flex-60 {
+    flex: 0 1 60%;
+}
+.flex {
+    display: flex;
+}
+.align_center {
+    align-items: center;
+}
+.between {
+    justify-content: space-between;
+}
+.center {
+    justify-content: center;
+}
+.sidebar {
+    padding: 1rem;
+}
+.sizes_btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.541);
+    border-radius: 50%;
+    margin: 0.5rem;
+    /* background-color: rgba(128, 128, 128, 0.192); */
+}
+.sizes_btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+.card {
+    margin: 1rem;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.363), 2px 2px 4px rgba(128, 128, 128, 0.281);
+}
+.title {
+    font-size: 1.3rem;
+}
+.image {
+    width: 300px;
+    height: 200px;
+}
+.total {
+    margin-top: 3rem;
+}
